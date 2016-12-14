@@ -120,3 +120,10 @@ body {
 .battleCards > ul > li {
   list-style-type:  none;
 }
+
+input.range {
+
+  -webkit-appearance: slider-vertical;
+  writing-mode: bt-lr;
+}
+}
