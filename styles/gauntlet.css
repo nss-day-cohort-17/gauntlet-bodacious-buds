@@ -108,6 +108,8 @@ body {
   border-color: #0074D9;
   border: solid  2px;
   text-align: left;
+  padding: 3rem;
+  margin-bottom: 3rem;
 
 }
 .battleCards > h1 {
@@ -121,9 +123,11 @@ body {
   list-style-type:  none;
 }
 
-input.range {
+.range {
 
   -webkit-appearance: slider-vertical;
   writing-mode: bt-lr;
 }
-}
+/*.progress {
+  padding: 1rem;
+}*/
