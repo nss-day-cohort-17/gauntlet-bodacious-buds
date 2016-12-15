@@ -106,3 +106,20 @@ body {
   padding: 0 50px 0 20px;
   border-radius: 0 5px 5px 0;
 }
+
+.battleCards {
+  border-color: #0074D9;
+  border: solid  2px;
+  text-align: left;
+
+}
+.battleCards > h1 {
+  text-align: center;
+}
+.battleCards > h3 + h5 {
+  text-align: center;
+}
+
+.battleCards > ul > li {
+  list-style-type:  none;
+}
