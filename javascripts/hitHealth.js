@@ -5,17 +5,14 @@ $(document).ready(function() {
 
   var health = 100;
 
-<<<<<<< HEAD
   function attack(e){
-=======
 // damage functionality for player
 
 function attack(event) {
->>>>>>> eb962d32d9a3e43ffa4a6cdf3f85fed5da56ee85
-    $('.btn').on('click', function(){
+    $('#attackButton').on('click', function(){
       //math placeholder for attack button damage function
       health = health - 10;
-      $('.progress').css('width', health + '%')
+      $('#playerHealth').css('width', health + '%')
     });
   }
 
