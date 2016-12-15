@@ -6,7 +6,7 @@ $(document).ready(function() {
   var health = 100;
 
   function attack(e){
-    $('.btn btn-primary btn-lg btn-block').on('click', function(){
+    $('.btn').on('click', function(){
       //math placeholder for attack button damage function
       health = health - Math.floor(Math.random);
       $('.progressValue').css('width', health + '%')
