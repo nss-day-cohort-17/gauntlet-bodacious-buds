@@ -5,10 +5,9 @@ $(document).ready(function() {
 
   var health = 100;
 
-  function attack(e){
 // damage functionality for player
 
-function attack(event) {
+function attack(e) {
     $('#attackButton').on('click', function(){
       //math placeholder for attack button damage function
       health = health - 10;
