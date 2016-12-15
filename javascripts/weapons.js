@@ -29,3 +29,8 @@ var WarAxe = function() {
 };
 WarAxe.prototype = new Weapon();
 
+var Lucille = function() {
+  this.name = "lucille";
+  this.damage = 20;
+  this.hands = 2;
+}
