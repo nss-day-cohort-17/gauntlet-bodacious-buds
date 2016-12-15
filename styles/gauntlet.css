@@ -107,12 +107,17 @@ body {
   border-radius: 0 5px 5px 0;
 }
 #battleground {
+
   max-width: 95%;
   margin: auto;
+  min-height: 57rem;
+  max-height: 57rem;
+  text-align: center;
 }
 
 #battlegroundHeader {
   padding-bottom: 2rem;
+  color: white;
 }
 
 .battleCards {
@@ -124,7 +129,7 @@ body {
   margin-bottom: 3rem;
   min-height: 55rem;
   max-height: 55rem;
-  /*max-height: 60%;*/
+
 
 }
 .battleCards > h1 {
@@ -151,6 +156,6 @@ body {
   background-color: lightgrey;
 }
 
-#attackButton {
+#flash {
 
 }
