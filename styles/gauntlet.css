@@ -122,7 +122,8 @@ body {
 
   padding: 3rem;
   margin-bottom: 3rem;
-  min-height: 50rem;
+  min-height: 55rem;
+  max-height: 55rem;
   /*max-height: 60%;*/
 
 }
@@ -133,6 +134,7 @@ body {
 
 #playerInfo > *{
   text-align: center;
+  overflow-wrap: break-word;
 
   list-style-type: none;
   padding:4rem;
@@ -144,7 +146,7 @@ body {
   color: white;
 }
 .progress {
-  margin-top: 10rem;
+  margin-top: 5rem;
   height: 8rem;
   background-color: lightgrey;
 }
