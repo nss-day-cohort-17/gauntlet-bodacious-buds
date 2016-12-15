@@ -111,11 +111,9 @@ body {
   border-color: #0074D9;
   border: solid  2px;
   text-align: left;
-<<<<<<< HEAD
+
   padding: 3rem;
   margin-bottom: 3rem;
-=======
->>>>>>> 678910884d09991c1a8631f4bdf68de7ed0ae013
 
 }
 .battleCards > h1 {
@@ -128,19 +126,6 @@ body {
 .battleCards > ul > li {
   list-style-type:  none;
 }
-<<<<<<< HEAD
 
-.range {
 
-  -webkit-appearance: slider-vertical;
-  writing-mode: bt-lr;
-}
-/*.progress {
-  padding: 1rem;
-}*/
-.container
-  .health-container
-    .hitPoints
-      .hitPoints.health-8
-=======
->>>>>>> 678910884d09991c1a8631f4bdf68de7ed0ae013
+
