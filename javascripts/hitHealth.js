@@ -18,5 +18,9 @@ $(document).ready(function() {
 })
 
 if (progressValue = 0) {
+<<<<<<< HEAD
   alert("May tales of your exploits live forever...but you dead.");
+=======
+  alert("May tales of your exploits live forever...you died, though.");
+>>>>>>> b51cdd0186ee803c3e942dac79d7e2f81bf77ef9
 }
