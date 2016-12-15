@@ -7,12 +7,14 @@ body {
 }
 
 .field {
-  margin: 20px 0 0 0;
+  margin: 10px 0 0 0;
+  text-align: center;
+  color: firebrick;
 }
 
 .field__textinput {
-  font-size: 1em;
-  padding: 15px 0;
+  font-size: .7em;
+  padding: 10px 10px;
   text-align: center;
   min-width: 500px;
 }
@@ -26,12 +28,18 @@ body {
   display: none;
 }
 
+#text {
+  font-size: 1.1em
+}
+
 .card__prompt {
-  font-size: 1.1em;
+  font-family: Papyrus, fantasy;
+  font-size: 1.5em;
   font-weight: bold;
   text-align: center;
   text-transform: uppercase;
   color: firebrick;
+  text-shadow: #fff 0 0 10px;
 }
 
 .card__button {
@@ -77,6 +85,18 @@ body {
   background-color: #F3C500;
 }
 
+.btn--salmon {
+  background-color: lightsalmon;
+  color: white;
+  border-color: lightsalmon;
+}
+
+.btn--green {
+  background-color: limegreen;
+  color: white;
+  border-color: limegreen;
+}
+
 .btn--red {
   border-color: #E4BD00;
   color: white;
@@ -92,7 +112,8 @@ body {
 
 .btn--small {
   min-width: 50px;
-  align-content: right;
+  align-content: center;
+  background-color: lightgray;
 }
 
 .btn__prompt {
@@ -166,7 +187,3 @@ body {
 
 
 /* // damage styling */
-
-
-
-
