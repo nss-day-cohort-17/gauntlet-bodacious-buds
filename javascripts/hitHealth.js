@@ -21,21 +21,6 @@ function attack(e) {
 })
 
 
-// damage functionality for enemy
-
- // function attack(e) {
- //    $('#attackButton').on('click', function(){
- //      //math placeholder for attack button damage function
- //      health = health - 10;
- //      $('#enemyHealth').css('width', health + '%')
- //    });
- //  }
-
-
-
-
-
-
-if (progress = 0) {
+if (playerHealth = 0) {
   alert("May tales of your exploits live forever...but you dead.");
 }
