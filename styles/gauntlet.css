@@ -77,6 +77,13 @@ body {
   background-color: #F3C500;
 }
 
+.btn--red {
+  border-color: #E4BD00;
+  color: white;
+  background-color: firebrick;
+  text-align: center;
+}
+
 .btn--big {
   font-size: 28px;
   padding: 10px;
@@ -111,7 +118,6 @@ body {
   border-color: #0074D9;
   border: solid  2px;
   text-align: left;
-
   padding: 3rem;
   margin-bottom: 3rem;
 
@@ -126,6 +132,7 @@ body {
 .battleCards > ul > li {
   list-style-type:  none;
 }
+
 
 // damage styling
 
@@ -150,3 +157,4 @@ body {
   margin: 0px;
   position: relative;
 }
+
