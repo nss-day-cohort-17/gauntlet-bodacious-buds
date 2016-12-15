@@ -3,4 +3,5 @@
 
 if(Math.floor(this.health.val = 0)){
       alert("May tales of your exploits live forever...you died, though.");
+      return;
     };
