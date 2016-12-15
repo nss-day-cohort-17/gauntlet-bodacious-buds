@@ -5,22 +5,32 @@ $(document).ready(function() {
 
   var health = 100;
 
-  function attack(e){
-    $('.btn btn-primary btn-lg btn-block').on('click', function(){
+// damage functionality for player
+
+function attack(event) {
+    $('.btn').on('click', function(){
       //math placeholder for attack button damage function
-      health = health - Math.floor(Math.random);
-      $('.progressValue').css('width', health + '%')
+      health = health - 10;
+      $('.progress').css('width', health + '%')
     });
   }
 
+// damage functionality for enemy
+
+  // function attack(event){
+  //   $('.btn').on('click', function(){
+  //     //math placeholder for attack button damage function
+  //     health = health - 25;
+  //     $('.progress').css('width', health + '%')
+  //   });
+  // }
+
   attack();
+
 
 })
 
-if (progressValue = 0) {
-<<<<<<< HEAD
+
+if (progress = 0) {
   alert("May tales of your exploits live forever...but you dead.");
-=======
-  alert("May tales of your exploits live forever...you died, though.");
->>>>>>> b51cdd0186ee803c3e942dac79d7e2f81bf77ef9
 }
