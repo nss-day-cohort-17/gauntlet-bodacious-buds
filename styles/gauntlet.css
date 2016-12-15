@@ -129,13 +129,24 @@ body {
 .battleCards > h1 {
   text-align: center;
 }
-.battleCards > h3 + h5 {
+
+
+#playerInfo > *{
   text-align: center;
+
+  list-style-type: none;
+  padding:4rem;
+
 }
 
 .battleCards >  * {
   list-style-type:  none;
   color: white;
+}
+.progress {
+  margin-top: 10rem;
+  height: 8rem;
+  background-color: lightgrey;
 }
 
 #attackButton {
