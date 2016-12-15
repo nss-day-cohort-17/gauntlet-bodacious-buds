@@ -5,30 +5,35 @@ $(document).ready(function() {
 
   var health = 100;
 
-// damage functionality for player
+// damage functionality for player and enemy
 
 function attack(e) {
     $('#attackButton').on('click', function(){
       //math placeholder for attack button damage function
       health = health - 10;
       $('#playerHealth').css('width', health + '%')
+      $('#enemyHealth').css('width', health + '%')
     });
   }
 
-// damage functionality for enemy
-
-  // function attack(event){
-  //   $('.btn').on('click', function(){
-  //     //math placeholder for attack button damage function
-  //     health = health - 25;
-  //     $('.progress').css('width', health + '%')
-  //   });
-  // }
-
   attack();
 
-
 })
+
+
+// damage functionality for enemy
+
+ // function attack(e) {
+ //    $('#attackButton').on('click', function(){
+ //      //math placeholder for attack button damage function
+ //      health = health - 10;
+ //      $('#enemyHealth').css('width', health + '%')
+ //    });
+ //  }
+
+
+
+
 
 
 if (progress = 0) {
