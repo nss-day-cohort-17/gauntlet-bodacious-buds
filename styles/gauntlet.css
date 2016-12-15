@@ -106,6 +106,14 @@ body {
   padding: 0 50px 0 20px;
   border-radius: 0 5px 5px 0;
 }
+#battleground {
+  max-width: 95%;
+  margin: auto;
+}
+
+#battlegroundHeader {
+  padding-bottom: 2rem;
+}
 
 .battleCards {
   border-color: #0074D9;
@@ -114,6 +122,8 @@ body {
 
   padding: 3rem;
   margin-bottom: 3rem;
+  min-height: 50rem;
+  /*max-height: 60%;*/
 
 }
 .battleCards > h1 {
@@ -123,9 +133,11 @@ body {
   text-align: center;
 }
 
-.battleCards > ul > li {
+.battleCards >  * {
   list-style-type:  none;
+  color: white;
 }
 
+#attackButton {
 
-
+}
