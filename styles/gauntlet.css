@@ -121,7 +121,6 @@ body {
   padding: 3rem;
   margin-bottom: 3rem;
 
-
 }
 .battleCards > h1 {
   text-align: center;
@@ -134,16 +133,3 @@ body {
   list-style-type:  none;
 }
 
-
-.range {
-
-  -webkit-appearance: slider-vertical;
-  writing-mode: bt-lr;
-}
-/*.progress {
-  padding: 1rem;
-}*/
-.container
-  .health-container
-    .hitPoints
-      .hitPoints.health-8
