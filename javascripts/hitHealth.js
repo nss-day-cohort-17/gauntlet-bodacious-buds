@@ -3,10 +3,14 @@ $(document).ready(function() {
 
   var health = 100;
 
-// damage functionality for health progress bar for player and enemy
 
-function attack(e) {
-    $('#attackButton').on('click', function(){
+
+// damage functionality for player
+
+function attack(event) {
+
+    $('.btn').on('click', function(){
+
       //math placeholder for attack button damage function
       health = health - 10;
       $('#playerHealth').css('width', health + '%')

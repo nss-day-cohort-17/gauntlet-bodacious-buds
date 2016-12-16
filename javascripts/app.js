@@ -1,15 +1,32 @@
 /*
   Test code to generate a human player and an orc player
  */
-var warrior = new Gauntlet.Combatants.Human();
-warrior.setWeapon(new WarAxe());
-warrior.generateClass();  // This will be used for "Surprise me" option
+var billy = new Gauntlet.Combatants.Human();
+billy.setWeapon(new WarAxe());
+billy.generateClass();
+
+$("#name-button").click(function(){
+
+  // console.log("you clicked the name button")
+billy.name = $('#player-name').val()
+console.log(billy.name)
+})
+
+
+
+console.log(billy)
+
+// billy.
+
+
+
+// This will be used for "Surprise me" option
 // console.log(warrior.toString());
 
-var orc = new Gauntlet.Combatants.Orc();
-orc.generateClass();
-orc.setWeapon(new BroadSword());
-// console.log(orc.toString());
+// // var orc = new Gauntlet.Combatants.Orc();
+// orc.generateClass();
+// orc.setWeapon(new BroadSword());
+// // console.log(orc.toString());
 
 
 // gamer character creation
