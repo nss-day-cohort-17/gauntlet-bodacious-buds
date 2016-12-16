@@ -79,7 +79,7 @@ $('body').click(function() {
 
 $('body').click(function() {
   var target = $(event.target)
-  gamerWeapon = target.find('.btn__class').text()
+  gamerWeapon = target.find('.btn__weapon').text()
   // console.log(target)
   // gamer.weapon = gamerWeapon
   // gamerWeapon = Gauntlet.GuildHall.$(this)
