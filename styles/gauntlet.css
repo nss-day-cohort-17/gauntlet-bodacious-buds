@@ -212,7 +212,7 @@ span.typed-cursor {
 
 }
 
- {
+#enemyHealth {
   width: 100%;
   height: 8rem;
   background: lightblue;
@@ -225,4 +225,3 @@ span.typed-cursor {
 
 
 /* // damage styling */
-
