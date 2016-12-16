@@ -44,6 +44,18 @@ $('body').click(function() {
 
 })
 
+// jQuery event listener for weapons ---> fight
+
+$('body').click(function() {
+  var target = $(event.target)
+  gamerWeapon = target.find('.btn__weapon').text()
+  // console.log(target)
+  // gamer.weapon = gamerWeapon
+  // gamerWeapon = Gauntlet.GuildHall.$(this)
+  console.log("gamer's weapon", gamerWeapon)
+  return;
+
+})
 /*
   Test code to generate a spell
  */
