@@ -1,16 +1,78 @@
 /*
   Test code to generate a human player and an orc player
  */
-var warrior = new Gauntlet.Combatants.Human();
-warrior.setWeapon(new WarAxe());
-warrior.generateClass();  // This will be used for "Surprise me" option
+var billy = new Gauntlet.Combatants.Human();
+billy.setWeapon(new WarAxe());
+billy.generateClass();
+
+$("#name-button").click(function(){
+
+  // console.log("you clicked the name button")
+billy.name = $('#player-name').val()
+console.log(billy.name)
+})
+
+
+
+console.log(billy)
+
+// billy.
+
+
+
+// This will be used for "Surprise me" option
 // console.log(warrior.toString());
 
-var orc = new Gauntlet.Combatants.Orc();
-orc.generateClass();
-orc.setWeapon(new BroadSword());
-// console.log(orc.toString());
+// // var orc = new Gauntlet.Combatants.Orc();
+// orc.generateClass();
+// orc.setWeapon(new BroadSword());
+// // console.log(orc.toString());
 
+
+// gamer character creation
+
+var gamer;
+var gamerName;
+var gamerClass;
+var gamerWeapon;
+var gamerStrength;
+var gamerIntelligence;
+
+// jQuery event listener for name ---> classes
+
+$('#selectClass').click(function() {
+  gamerName = $('#player-name')[0].value
+  console.log('gamerName', gamerName);
+
+  gamer =new Gauntlet.Combatants.Player(gamerName)
+})
+
+// jQuery event listener for classes ---> weapons : halfway resolved
+
+
+$('body').click(function() {
+  var target = $(event.target)
+  gamerClass = target.find('.btn__text').text()
+  // console.log(target)
+  // gamer.class = gamerClass
+  // gamerClass = Gauntlet.GuildHall.$(this)
+  console.log("gamer's class", gamerClass)
+  return;
+
+})
+
+// jQuery event listener for weapons ---> fight
+
+$('body').click(function() {
+  var target = $(event.target)
+  gamerWeapon = target.find('.btn__weapon').text()
+  // console.log(target)
+  // gamer.weapon = gamerWeapon
+  // gamerWeapon = Gauntlet.GuildHall.$(this)
+  console.log("gamer's weapon", gamerWeapon)
+  return;
+
+})
 /*
   Test code to generate a spell
  */

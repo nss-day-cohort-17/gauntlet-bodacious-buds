@@ -33,4 +33,5 @@ var Lucille = function() {
   this.name = "lucille";
   this.damage = 20;
   this.hands = 2;
-}
+};
+Lucille.prototype = new Weapon();
