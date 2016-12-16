@@ -5,20 +5,137 @@
 // billy.setWeapon(new WarAxe());
 // billy.generateClass();
 //
-var objectName =  $('#player-name').val()
-objectName = new Gauntlet.Combatants.Human();
+
+var protagonist = new Gauntlet.Combatants.Human();
+  protagonist.playerName = $('#player-name').val()
+// console.log(protagonist.toString())
+
+// class save text
+
+ $('#warrior').click(function() {
+// switch()
+// case 'warrior' = new Gauntlet.GuildHall.Warrior()
+// case 'valkyrie' =
+
+})
+
+
+ // $("#generateClass").click(function(){
+
+ //  protagonist.class =  generateClass()
+ // })
+
+ $('body').click(function() {
+  var target = $(event.target)
+  textText = target.find('.btn__class').text()
+    // var textText = e.target.text().toLowerCase;
+    // var moveAlong = false;
+    //
+    console.log(textText)
+
+ switch (textText) {
+      case "Warrior":
+
+        protagonist.class = new Gauntlet.GuildHall.Warrior;
+        break;
+      case "Valkyrie":
+
+        protagonist.class = new Gauntlet.GuildHall.Valkyrie;
+        break;
+      case "Berserker":
+         protagonist.class = new Gauntlet.GuildHall.Berserker;
+      break;
+      case "Monk":
+         protagonist.class = new Gauntlet.GuildHall.Monk;
+      break;
+
+      case "Wizard":
+         protagonist.class = new Gauntlet.GuildHall.Wizard;
+      break;
+      case "Sorcerer":
+         protagonist.class = new Gauntlet.GuildHall.Sorcerer;
+      break;
+
+      case "Conjurer":
+         protagonist.class = new Gauntlet.GuildHall.Conjurer;
+      break;
+      case "Thief":
+         protagonist.class = new Gauntlet.GuildHall.Thief;
+      break;
+
+      case "Ninja":
+         protagonist.class = new Gauntlet.GuildHall.Ninja;
+      break;
+      case "Assassin":
+         protagonist.class = new Gauntlet.GuildHall.Assassin;
+      break;
+
+
+      // default:
+      //   protagonist.class = "no matches big guy!";
+      //   break;
+    }
+    // this is generate random class
+    // if (moveAlong) {
+    //   $(".card").hide();
+    //   $("." + nextCard).show();
+    // }
+  });
+
+ $('body').click(function() {
+  var target = $(event.target)
+  superWeaponweapon = target.find('.btn__class').text()
+    // var textText = e.target.text().toLowerCase;
+    // var moveAlong = false;
+    //
+    console.log(superWeaponweapon)
+
+ switch (superWeaponweapon) {
+      case "Dagger":
+
+        protagonist.class = Dagger;
+        break;
+
+      case "Lucille":
+
+        protagonist.weapon = Lucille;
+        break;
+
+      case "Broad Sword":
+         protagonist.weapon = BroadSword;
+      break;
+
+       case "Battle Axe":
+         protagonist.weapon = WarAxe;
+      break;
+
+
+
+      // default:
+      //   protagonist.class = "no matches big guy!";
+      //   break;
+    }
+    // this is generate random class
+    // if (moveAlong) {
+    //   $(".card").hide();
+    //   $("." + nextCard).show();
+    // }
+  });
+
+
+
+
 
 $("#name-button").click(function(){
 
-  objectName.name =  $('#player-name').val()
-  // objectName.weapon = objectName.WHAT WE CLICK()     $("weaponclicktarget").click(function(){
-  // })
-  objectName.class = $("classClicked").click()
+  protagonist.name =  $('#player-name').val()
 
- // objectName.setWeapon()
- objectName.generateClass();
+  // protagonist.class = $("classClicked").click()
 
- console.log(objectName)
+// use this to set random class on click
+//  // protagonist.generateClass();
+
+//  // console.log(protagonist)
 
 
 
