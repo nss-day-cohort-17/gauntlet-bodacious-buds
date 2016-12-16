@@ -1,20 +1,34 @@
 /*
   Test code to generate a human player and an orc player
  */
-var billy = new Gauntlet.Combatants.Human();
-billy.setWeapon(new WarAxe());
-billy.generateClass();
+// var billy = new Gauntlet.Combatants.Human();
+// billy.setWeapon(new WarAxe());
+// billy.generateClass();
+//
+var objectName =  $('#player-name').val()
+objectName = new Gauntlet.Combatants.Human();
 
 $("#name-button").click(function(){
 
-  // console.log("you clicked the name button")
-billy.name = $('#player-name').val()
-console.log(billy.name)
+  objectName.name =  $('#player-name').val()
+  // objectName.weapon = objectName.WHAT WE CLICK()     $("weaponclicktarget").click(function(){
+  // })
+  objectName.class = $("classClicked").click()
+
+ // objectName.setWeapon()
+ objectName.generateClass();
+
+ console.log(objectName)
+
+
+
+
+// console.log(Gauntlet.Combatants.Human())
 })
 
 
 
-console.log(billy)
+// console.log(billy)
 
 // billy.
 

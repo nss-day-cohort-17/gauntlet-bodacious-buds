@@ -168,7 +168,7 @@ body {
 #playerInfo > *{
   text-align: center;
   overflow-wrap: break-word;
-
+  font-size: 2rem;
   list-style-type: none;
   padding:4rem;
 
@@ -179,7 +179,7 @@ body {
   color: white;
 }
 .progress {
-  margin-top: 5rem;
+  margin-top: 2rem;
   height: 8rem;
   background-color: red;
   border: solid 5px;
@@ -225,4 +225,3 @@ span.typed-cursor {
 
 
 /* // damage styling */
-
