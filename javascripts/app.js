@@ -13,10 +13,10 @@ $("#name-button").click(function(){
   objectName.name =  $('#player-name').val()
   // objectName.weapon = objectName.WHAT WE CLICK()     $("weaponclicktarget").click(function(){
   // })
-  objectName.class = $("classClicked").click()
+  // objectName.class = $("classClicked").click()
 
  // objectName.setWeapon()
- objectName.generateClass();
+ // objectName.generateClass();
 
  console.log(objectName)
 
@@ -69,7 +69,7 @@ $('body').click(function() {
   gamerClass = target.find('.btn__class').text()
   // console.log(target)
   // gamer.class = gamerClass
-  // gamerClass = Gauntlet.GuildHall.$(this)
+  // gamerClass = Gauntlet.GuildHall.Warrior
   console.log("gamer's class", gamerClass)
   return;
 
@@ -83,10 +83,27 @@ $('body').click(function() {
   // console.log(target)
   // gamer.weapon = gamerWeapon
   // gamerWeapon = Gauntlet.GuildHall.$(this)
+
   console.log("gamer's weapon", gamerWeapon)
   return;
 
 })
+
+
+// $('.btn__warrior').click(function() {
+//   var target = $(event.target)
+//   gamerClass = target.find('.btn__warrior').text()
+//   // console.log(target)
+//   // gamer.class = gamerClass
+//   // gamerClass = Gauntlet.GuildHall.Warrior
+//   objectName.class = gamerClass
+//   console.log("gamer's class", gamerClass)
+//   return;
+
+// })
+
+
+
 /*
   Test code to generate a spell
  */
