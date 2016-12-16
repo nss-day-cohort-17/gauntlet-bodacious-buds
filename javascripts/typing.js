@@ -7,7 +7,7 @@ $("#battleTime").click(function(){
       setTimeout(function(){
         // $("#playerName").css("display", "inherit");
         $("#playerName").typed({
-            strings: ["This will be player name,"], // we will access prototype info and put into this array for dynamic content
+            strings: [`${billy.name}`], // we will access prototype info and put into this array for dynamic content
             typeSpeed: 2, // typing speed
             backDelay: 1000, // pause before backspacing
             loop: false, // loop on or off (true or false)
@@ -20,7 +20,7 @@ $("#battleTime").click(function(){
           setTimeout(function(){
         // $("#playerName").css("display", "inherit");
         $("#playerClass").typed({
-            strings: ["I am the class of the player,"], // we will access prototype info and put into this array for dynamic content
+            strings: [`${billy.class}`], // we will access prototype info and put into this array for dynamic content
             typeSpeed: 2, // typing speed
             backDelay: 1000, // pause before backspacing
             loop: false, // loop on or off (true or false)
@@ -33,7 +33,31 @@ $("#battleTime").click(function(){
            setTimeout(function(){
         // $("#playerName").css("display", "inherit");
         $("#playerWeapon").typed({
-            strings: ["Weapon weapon WEapon,"], // we will access prototype info and put into this array for dynamic content
+            strings: [`${billy.health}`], // we will access prototype info and put into this array for dynamic content
+            typeSpeed: 2, // typing speed
+            backDelay: 1000, // pause before backspacing
+            loop: false, // loop on or off (true or false)
+            loopCount: false, // number of loops, false = infinite
+            callback: function(){ } // call function after typing is done
+        });
+    },600);
+
+
+    setTimeout(function(){
+        // $("#playerName").css("display", "inherit");
+        $("#playerIntelligence").typed({
+            strings: [`${billy.intelligence}`], // we will access prototype info and put into this array for dynamic content
+            typeSpeed: 2, // typing speed
+            backDelay: 1000, // pause before backspacing
+            loop: false, // loop on or off (true or false)
+            loopCount: false, // number of loops, false = infinite
+            callback: function(){ } // call function after typing is done
+        });
+    },600);
+     setTimeout(function(){
+        // $("#playerName").css("display", "inherit");
+        $("#playerSkinColor").typed({
+            strings: [`${billy.skinColor}`], // we will access prototype info and put into this array for dynamic content
             typeSpeed: 2, // typing speed
             backDelay: 1000, // pause before backspacing
             loop: false, // loop on or off (true or false)
