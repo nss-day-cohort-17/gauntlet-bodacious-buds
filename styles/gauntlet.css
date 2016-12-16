@@ -4,6 +4,7 @@ body {
   padding: 10px;
   font-size: 3em;
   background-image: url("http://hdwallpaperbackgrounds.net/wp-content/uploads/2015/09/Fantasy-World-pack1-2.jpg");
+  background-repeat: no-repeat;
 }
 
 .field {
@@ -183,7 +184,14 @@ body {
   background-color: lightgrey;
 }
 
-#flash {
+#enemyName, #playerName {
+  display: block;
+  min-height: 3em;
+}
+
+span.typed-cursor {
+  display:none;
+}
 
 
 /* // damage styling */
