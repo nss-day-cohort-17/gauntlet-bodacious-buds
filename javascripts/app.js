@@ -66,7 +66,7 @@ $('#selectClass').click(function() {
 
 $('body').click(function() {
   var target = $(event.target)
-  gamerClass = target.find('.btn__text').text()
+  gamerClass = target.find('.btn__class').text()
   // console.log(target)
   // gamer.class = gamerClass
   // gamerClass = Gauntlet.GuildHall.$(this)
