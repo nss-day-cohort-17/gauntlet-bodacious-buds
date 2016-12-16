@@ -10,7 +10,7 @@ function attack(e) {
       //math placeholder for attack button damage function
       health = health - 10;
       $('#playerHealth').css('width', health + '%')
-      $('#enemyHealth').css('width', health + '%')
+      $('#enemyHealth').css('width', health)
     });
   }
 
@@ -19,6 +19,6 @@ function attack(e) {
 })
 
 
-if (playerHealth = 0) {
+if (playerHealth= 0) {
   alert("May tales of your exploits live forever...but you dead.");
 }

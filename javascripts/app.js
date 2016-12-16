@@ -32,18 +32,15 @@ $('#selectClass').click(function() {
 
 // jQuery event listener for classes ---> weapons : halfway resolved
 
-// $('#selectWeapon').click(function() {
-//   gamerClass = $(this).find('.btn__text').text()
-//   gamer.class = gamerClass
-//   console.log('gamerClass', gamerClass);
-// })
 
-$('body').click(function(event) {
+$('body').click(function() {
   var target = $(event.target)
   gamerClass = target.find('.btn__text').text()
-  console.log(target)
-  gamer.class = gamerClass
+  // console.log(target)
+  // gamer.class = gamerClass
+  // gamerClass = Gauntlet.GuildHall.$(this)
   console.log("gamer's class", gamerClass)
+  return;
 
 })
 
