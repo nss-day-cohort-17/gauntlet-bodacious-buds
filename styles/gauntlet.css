@@ -4,6 +4,7 @@ body {
   padding: 10px;
   font-size: 3em;
   background-image: url("http://hdwallpaperbackgrounds.net/wp-content/uploads/2015/09/Fantasy-World-pack1-2.jpg");
+  background-repeat: no-repeat;
 }
 
 .field {
@@ -164,6 +165,7 @@ body {
   border-color: white;
 }
 
+<<<<<<< HEAD
 #flash {}
 
 
@@ -178,9 +180,20 @@ body {
   box-sizing: border-box;
   margin: 0px;
   position: relative;
+=======
+#enemyName, #playerName {
+  display: block;
+  min-height: 3rem;
 }
 
+span.typed-cursor {
+  display:none;
+>>>>>>> 916fd95a8744c9d310dced78e7002d02d482ba07
+}
 
+#flash {
+
+<<<<<<< HEAD
 #enemyHealth {
   width: 100%;
   height: 8rem;
@@ -191,3 +204,7 @@ body {
   margin: 0px;
   position: relative;
 }
+=======
+
+/* // damage styling */
+>>>>>>> 916fd95a8744c9d310dced78e7002d02d482ba07
