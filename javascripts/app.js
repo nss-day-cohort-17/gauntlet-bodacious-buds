@@ -30,7 +30,7 @@ $('#selectClass').click(function() {
   gamer =new Gauntlet.Combatants.Player(gamerName)
 })
 
-// jQuery event listener for classes ---> weapons : unresolved
+// jQuery event listener for classes ---> weapons : halfway resolved
 
 // $('#selectWeapon').click(function() {
 //   gamerClass = $(this).find('.btn__text').text()
@@ -40,10 +40,10 @@ $('#selectClass').click(function() {
 
 $('body').click(function(event) {
   var target = $(event.target)
-  gamerWeapon = target.find('.btn__text').text()
+  gamerClass = target.find('.btn__text').text()
   console.log(target)
-  gamer.weapon = gamerWeapon
-  console.log("gamer's weapon", gamerWeapon)
+  gamer.class = gamerClass
+  console.log("gamer's class", gamerClass)
 
 })
 
