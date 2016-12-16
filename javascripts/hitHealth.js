@@ -23,6 +23,6 @@ function attack(event) {
 })
 
 
-if (playerHealth= 0) {
+if (gamerHealth= 0) {
   alert("May tales of your exploits live forever...but you dead.");
 }

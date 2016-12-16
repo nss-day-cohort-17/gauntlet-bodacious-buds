@@ -208,7 +208,8 @@ body {
 }
 
 span.typed-cursor {
-  display:none;
+  display: none;
+  cursor:
 
 }
 
