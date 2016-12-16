@@ -1,11 +1,9 @@
-//damage functionality for health progress bar
-
 $(document).ready(function() {
   console.log("Let's go!!");
 
   var health = 100;
 
-// damage functionality for player and enemy
+// damage functionality for health progress bar for player and enemy
 
 function attack(e) {
     $('#attackButton').on('click', function(){

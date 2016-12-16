@@ -11,6 +11,42 @@ orc.generateClass();
 orc.setWeapon(new BroadSword());
 // console.log(orc.toString());
 
+
+// gamer character creation
+
+var gamer;
+var gamerName;
+var gamerClass;
+var gamerWeapon;
+var gamerStrength;
+var gamerIntelligence;
+
+// jQuery event listener for name ---> classes
+
+$('#selectClass').click(function() {
+  gamerName = $('#player-name')[0].value
+  console.log('gamerName', gamerName);
+
+  gamer =new Gauntlet.Combatants.Player(gamerName)
+})
+
+// jQuery event listener for classes ---> weapons : unresolved
+
+// $('#selectWeapon').click(function() {
+//   gamerClass = $(this).find('.btn__text').text()
+//   gamer.class = gamerClass
+//   console.log('gamerClass', gamerClass);
+// })
+
+$('body').click(function(event) {
+  var target = $(event.target)
+  gamerWeapon = target.find('.btn__text').text()
+  console.log(target)
+  gamer.weapon = gamerWeapon
+  console.log("gamer's weapon", gamerWeapon)
+
+})
+
 /*
   Test code to generate a spell
  */
